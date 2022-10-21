@@ -81,3 +81,11 @@ h1 {
 	transition: all 5s ease-in-out;
 	text-align: center;
 }
+
+.bot:checked~.player2 {
+	display: none;
+}
+
+.player2 {
+	display: block;
+}
